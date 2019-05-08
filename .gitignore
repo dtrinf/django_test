@@ -1,7 +1,7 @@
 *.pyc
 *~
 __pycache__
-/vir_env
+vir_env
 db.sqlite3
 .DS_Store
 /static
