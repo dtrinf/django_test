@@ -2,6 +2,7 @@
 *~
 __pycache__
 vir_env
+vir_env_win
 db.sqlite3
 .DS_Store
 /static
