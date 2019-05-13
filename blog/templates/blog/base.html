@@ -8,6 +8,7 @@
     </head>
     <body>
         <div class="page-header">
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             <h1><a href="/">Django Blog</a></h1>
         </div>
 
@@ -25,11 +26,7 @@
           {% endblock %}
         </div>
 
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">Static post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
-        </div>
+
         <a href="https://en.wikipedia.org/wiki/Django" class="external_link" id="link_to_wiki_page">Texto</a>
     </body>
 </html>
